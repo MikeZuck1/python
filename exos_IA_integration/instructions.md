@@ -41,7 +41,7 @@ clients = [
 **Exercice 3 — Manipulation de données**
 
 Écris un programme qui :
-1. Crée une liste de 10 nombres aléatoires entre 1 et 100
+1. Crée une liste de 10 nombres aléatoires entre 1 et 1
 2. Calcule la moyenne
 3. Affiche les nombres supérieurs à la moyenne
 
@@ -72,9 +72,9 @@ Affiche le `name` et la `jurisdiction` de toutes les entités dont le statut est
 **Exercice 2 — Clé primaire / modélisation**
 
 Réponds à ces questions sans écrire de code :
-- Quelle est la clé primaire de la table `entity` ?
-- Quelle est la clé étrangère qui lie `assoc_officer_entity` à `officer` ?
-- Quel type d'association lie `entity` et `officer` ? (1-1, 1-N, N-N)
+- Quelle est la clé primaire de la table `entity` ? La PK est l'id 
+- Quelle est la clé étrangère qui lie `assoc_officer_entity` à `officer` ? officer
+- Quel type d'association lie `entity` et `officer` ? (1-1, 1-N, N-N) oui pour les 2 
 
 *Notions : modélisation relationnelle*
 

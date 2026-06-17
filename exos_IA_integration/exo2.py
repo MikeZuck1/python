@@ -8,7 +8,8 @@ customers = [
 
 def print_customers():
   '''
-    Cette fonction parcourt la liste des clients et affiche le nom de ceux qui habitent à Bruxelles.
+    This function iterate the customers list and 
+    display the name of those who live in Brussels.
   '''
   for customer in customers: 
     if customer["ville"] == "Bruxelles":
