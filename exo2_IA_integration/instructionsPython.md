@@ -11,7 +11,7 @@ Crée un programme qui :
 3. Affiche tous les contacts
 4. Modifie l'email du premier contact
 5. Supprime le deuxième contact
-6. Affiche le nombre total de contacts restants
+6. Affiche le nombre total de contacts restants. 
 
 *Notions : variables, dictionnaires, listes, append, remove, len*
 
@@ -104,6 +104,137 @@ En utilisant les livres du site précédent :
 
 *Notions : ETL complet, transformation de données, CSV*
 
+# Exercices Python Algorithmiques Supplémentaires
+
+**Niveaux : Facile → Moyen → Intermédiaire**
+
+Basé sur la préparation au test Digital City (2-3 juillet)
+
+---
+
+## Exercices Supplémentaires — Algorithmique
+
+**Exercice 8 — Compter les occurrences**
+
+Crée une fonction `compter_occurrences(liste, valeur)` qui :
+- Prend une liste et une valeur
+- Parcourt la liste avec une boucle `for`
+- Compte combien de fois la valeur apparaît
+- Retourne le nombre
+- **Sans utiliser `.count()`**
+
+Teste avec :
+```python
+nombres = [1, 2, 3, 2, 4, 2, 5]
+print(compter_occurrences(nombres, 2))  # Doit afficher 3
+```
+
+*Notions : boucles, compteur, conditions*
+
+---
+
+**Exercice 9 — Inverser une liste**
+
+Crée une fonction `inverser_liste(liste)` qui :
+- Prend une liste
+- Retourne une nouvelle liste avec les éléments dans l'ordre inverse
+- **Sans utiliser `.reverse()` ou slicing `[::-1]`** 
+- Utilise une boucle et une nouvelle liste
+
+Teste avec :
+```python
+nombres = [1, 2, 3, 4, 5]
+print(inverser_liste(nombres))  # Doit afficher [5, 4, 3, 2, 1]
+```
+
+*Notions : boucles, listes, indices*
+
+---
+
+**Exercice 10 — Trouver le minimum et maximum**
+
+Crée deux fonctions :
+1. `trouver_min(liste)` — retourne le plus petit nombre
+2. `trouver_max(liste)` — retourne le plus grand nombre
+
+**Sans utiliser `min()` ou `max()`**
+
+Teste avec :
+```python
+nombres = [15, 3, 42, 8, 99, 1]
+print(trouver_min(nombres))  # Doit afficher 1
+print(trouver_max(nombres))  # Doit afficher 99
+```
+
+*Notions : boucles, comparaisons, variables*
+
+---
+
+**Exercice 11 — Valider une entrée utilisateur**
+
+Crée un programme qui :
+1. Demande à l'utilisateur d'entrer un nombre entre 1 et 10
+2. **Utilise une boucle `while`** pour forcer une réponse valide
+3. Si invalide → affiche "Entrée invalide, réessaie"
+4. Une fois valide → affiche "Merci !"
+
+Indice : Utilise `try/except` pour gérer si ce n'est pas un nombre, ou juste des conditions.
+
+*Notions : while, input, conditions, validation*
+
+---
+
+**Exercice 12 — Fusionner deux listes**
+
+Crée une fonction `fusionner_listes(liste1, liste2)` qui :
+- Prend deux listes
+- Retourne une nouvelle liste contenant tous les éléments des deux
+- **Sans utiliser `+` ou `.extend()`**
+- Utilise deux boucles `for`
+
+Teste avec :
+```python
+list1 = [1, 2, 3]
+list2 = [4, 5, 6]
+print(fusionner_listes(list1, list2))  # Doit afficher [1, 2, 3, 4, 5, 6]
+```
+
+*Notions : boucles, listes, append*
+
+---
+
+**Exercice 13 — Tri simple (Bubble Sort)**
+
+Crée une fonction `trier_liste(liste)` qui :
+- Prend une liste de nombres
+- Retourne une nouvelle liste triée du plus petit au plus grand
+- **Sans utiliser `.sort()` ou `sorted()`**
+- Utilise la méthode Bubble Sort (2 boucles imbriquées)
+
+Teste avec :
+```python
+nombres = [5, 2, 8, 1, 9]
+print(trier_liste(nombres))  # Doit afficher [1, 2, 5, 8, 9]
+```
+
+*Notions : boucles imbriquées, comparaisons, algorithmique*
+
+---
+
+## 📚 Conseils
+
+- **Exo 8-10** : Faciles, fais-les d'abord
+- **Exo 11** : Moyen (while + validation)
+- **Exo 12-13** : Plus difficiles, essaie après avoir bien maîtrisé les autres
+
+## ⏱️ Timing conseillé
+
+- **Exo 8-10** : 30 min (facile)
+- **Exo 11** : 20 min (validation)
+- **Exo 12** : 15 min (fusionner)
+- **Exo 13** : 30 min (tri — le plus hard)
+
+**Total : 13 exos algorithmiques** pour bien préparer le test ! 💪
 ---
 
 **Plan de travail jusqu'au 2-3 juillet**
