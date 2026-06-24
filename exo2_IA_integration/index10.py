@@ -33,7 +33,6 @@ def trouver_max(liste):
       maximum = nombre
   return maximum
 
-
 #list
 nombres = [15, 3, 42, 8, 99, 1]
 
